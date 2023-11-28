@@ -1,0 +1,28 @@
+body {
+  @apply overflow-hidden flex items-center justify-center h-screen m-2.5;
+  background: linear-gradient(to right, #1a0942, #120537, #09022e);
+}
+.app-container {
+  @apply text-center text-[#646cff] max-w-full max-h-[200px] p-5;
+}
+.profile-container {
+  @apply text-[red] mt-5;
+}
+.profile-border {
+  @apply inline-block text-[#646cff] bg-[rgba(0,255,255,0)] p-5 rounded-[9px] border-[3px] border-solid border-[rgb(11,245,116)];
+}
+.profile-image {
+  @apply max-w-full max-h-[200px] text-[#646cff] h-auto rounded-lg;
+}
+h1 {
+  @apply text-[3.2em] leading-[1.1] text-[#646cff];
+}
+button {
+  @apply text-[25px] text-[#646cff] font-medium bg-[#1a1a1a00] cursor-pointer transition-[border-color] duration-[0.25s] p-2.5 rounded-lg border-[3px] border-solid border-[blanchedalmond] hover:border-[#646cff];
+  font-family: inherit;
+}
+button:focus,
+button:focus-visible {
+  @apply text-[#646cff];
+  outline: 4px auto -webkit-focus-ring-color;
+}
